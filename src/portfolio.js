@@ -130,17 +130,22 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+      url: "https://www.linkedin.com/pulse/i-made-ai-tool-detect-facial-expressions-while-you-watch-rohan-sawant/",
+      image: "https://github.com/CT83/Hemuer/raw/master/public/images/screenshot-1.jpg",
+      title: "I made an AI Tool to detect facial expressions while you watch a video!",
+      description: "Hemeur is an AI Tool to record facial expressions of users as they watch a video and then visualize the funniest parts of it! It watches users as they watch a video, and logs when the users smile. Insights can be gathered from collected data!"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
-      title: "Why REACT Is The Best?",
-      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+      url: "https://www.linkedin.com/pulse/i-made-ai-chrome-extension-fight-fake-news-rohan-sawant/",
+      image: "https://github.com/CT83/Bunyip/raw/master/images/bunyip.gif",
+      title: "I made an AI Chrome Extension to fight Fake News!",
+      description: "Bunyip is a Chrome Extension, which allows us to detect AI-generated text, it helps users detect fake news articles which might be generated automatically and not by a real human!"
+    },{
+      url: "https://www.linkedin.com/pulse/failed-rumaro-ai-recognize-emotions-apparel-body-pose-rohan-sawant/",
+      image: "https://github.com/CT83/Rumaro/raw/master/images/algo_dg.png",
+      title: "Rumaro an AI to recognize emotions, apparel, body pose and activity on Instagram - [FAILED]",
+      description: "Rumaro uses AI to recognize emotions, apparel, body pose and activity in images, and measures how they affect audience engagement. ie. likes and comments."
+    },
   ]
 };
 
