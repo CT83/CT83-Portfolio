@@ -113,7 +113,7 @@ const achievementSection = {
     {
       title: "Acknowledged by Microsoft for Technical Article",
       subtitle: "The Article talked about Azure IOT Edge Configuration on Linux",
-      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/azure-1.svg",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/azure-1.jpg",
       footerLink: [
         { name: "View Article", url: "https://www.linkedin.com/pulse/setup-azure-iot-edge-runtime-jetson-devices-minified-rohan-sawant/" },
         { name: "View Tweet", url: "https://twitter.com/_Rohan_Sawant_/status/1240227016277766145" }
