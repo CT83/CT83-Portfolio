@@ -3,9 +3,14 @@ import "./TestimonialCard.css";
 
 export default function TestimonialCard({ testimonial }) {
 
+  function openRepoinNewTab(url) {
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   return (
     <div>
-      <div className="testimonial-card-div" key={testimonial.id} >
+      <div className="testimonial-card-div" key={testimonial.id} onClick={() => openRepoinNewTab(testimonial.url)}>
         <div className="testimonial-name-div">
           <svg aria-hidden="true" className="octicon" height="16" role="img" viewBox="0 0 12 16" width="12" className="testimonial-svg">
             <path
@@ -19,9 +24,9 @@ export default function TestimonialCard({ testimonial }) {
         <div className="testimonial-stats">
           <div className="testimonial-left-stat">
             <span>
-              <p>{testimonial.text.split("\n").map((i,key) => {
-            return <p key={key}>{i}</p>;
-        })}</p>
+              <p>{testimonial.text.split("\n").map((i, key) => {
+                return <p key={key}>{i}</p>;
+              })}</p>
             </span>
           </div>
         </div>

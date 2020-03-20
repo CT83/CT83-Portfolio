@@ -67,7 +67,7 @@ export default function Projects() {
 
   return (
     <div className="main" id="opensource">
-      <h1 className="project-title">Open Source Projects</h1>
+      <h1 className="project-title">Projects</h1>
       <p className="project-subtitle"><a href="https://www.linkedin.com/pulse/i-made-ai-tool-detect-facial-expressions-while-you-watch-rohan-sawant/">Hemuer</a>, <a href="https://www.linkedin.com/pulse/i-made-ai-chrome-extension-fight-fake-news-rohan-sawant/">Bunyip</a> and <a href="https://www.linkedin.com/pulse/failed-rumaro-ai-recognize-emotions-apparel-body-pose-rohan-sawant/">Rumaro</a> are my favourites!</p>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {

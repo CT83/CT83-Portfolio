@@ -8,10 +8,10 @@ class Testimonials extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: 'Jordan Belfort',
       repo: [{
         name: "Sajjad Rostami",
         subtitle: "AI PhD Student, Human & Robot Interaction Developer",
+        url:"https://www.linkedin.com/in/sajjad-rostami-438515a6/",
         text: `Rohan has an extremely strong grasp over the intricacies, complexities, and challenges of working with Deep Learning, Machine Learning, and Software in general. 
         I reached out to Rohan when I needed help with an OpenCV Python issue I was having trouble with. He was surprisingly excited to help me with it, Rohan was able to fix something less than an hour. He even went on to answer my corresponding StackOverflow. So that others could benefit from it as well. 
         Rohan is technically strong, a real people person and someone whom I can see myself collaborating with for several projects to come in the near future. `
@@ -19,6 +19,7 @@ class Testimonials extends Component {
       {
         name: "Arelene Andrews",
         subtitle: "Context Tester, Writer",
+        url:"https://www.linkedin.com/in/arlene-andrews-a02a7a107/",
         text: `To Whom It May Concern:
         
 I have had the delight and pleasure to be acquainted with Rohan Sawant over the past few years, and watch his development skills, personality, and abilities grow and become more mature. He has gone from an instinctively curious person into one who can use that skill to explore new ideas, question their practicality, and create experiments and projects to show their value to the world.
@@ -37,14 +38,13 @@ Arlene Andrews
   }
   render() {
     return (
-      <div className="main" id="opensource">
+      <div className="main" id="recommendations">
         <h1 className="testimonial-title">Recommendations</h1>
         <div className="repo-cards-div-main">
           {this.state.repo.map((v, i) => {
             return <TestimonialCard testimonial={v} key={v.id} />;
           })}
         </div>
-        <Button text={"More Projects"} className="project-button" href="https://github.com/saadpasta" newTab={true} />
       </div>
     );
   }
