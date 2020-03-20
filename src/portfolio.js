@@ -98,20 +98,20 @@ const achievementSection = {
     {
       title: "Featured by Dev.to on Twitter",
       subtitle: "'Hemuer' my side project was featured by Dev.to's official Twitter handle.",
-      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/twitter-feature.png",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/devto.png",
       footerLink: [
         { name: "View Tweet", url: "https://twitter.com/_Rohan_Sawant_/status/1239376557413560320" },
       ]
     },
     {
-      title: "Intel® Edge AI Scholarship | Udacity",
+      title: "Received the Intel® Edge AI Scholarship | Udacity",
       subtitle: "The scholarship taught me the basics of AI at the Edge, how to leverage pre-trained models available with the Intel® Distribution of OpenVINO Toolkit™.",
       image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/edge.jpeg",
       footerLink: []
     },
 
     {
-      title: "Acknowledged by Microsoft for Technical Article",
+      title: "Acknowledged by Microsoft for my Technical Article",
       subtitle: "The Article talked about Azure IOT Edge Configuration on Linux",
       image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/azure-1.jpg",
       footerLink: [
