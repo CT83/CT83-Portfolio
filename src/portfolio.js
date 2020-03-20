@@ -5,7 +5,7 @@ const greeting = {
   title: "Hi! I'm Rohan",
   subTitle:
     "a Full Stack Software Engineer, with a background of Deep Learning and AI, who creates products which combine all of these!",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://www.linkedin.com/in/rohan-sawant-code/"
 };
 
 const socialMediaLinks = {
