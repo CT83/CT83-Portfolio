@@ -126,7 +126,7 @@ const blogSection = {
   /* Blogs Section */
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+  subtitle: "I love to write, share and teach others. Blogging allows me to do just that.",
 
   blogs: [
     {
