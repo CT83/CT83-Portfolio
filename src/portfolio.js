@@ -91,35 +91,32 @@ const bigProjects = {
 const achievementSection = {
   /* Your Achievement Section Include Your Certification Talks and More */
 
-  title: "Achievements And Certifications 🏆 ",
-  subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
+  title: "Achievements 🏆",
+  subtitle: "Some things I am proud of!",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      description: "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
-      image:
-        "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
+      title: "Featured by Dev.to on Twitter",
+      subtitle: "'Hemuer' my side project was featured by Dev.to's official Twitter handle.",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/devto.png",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "View Tweet", url: "https://twitter.com/_Rohan_Sawant_/status/1239376557413560320" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Received the Intel® Edge AI Scholarship | Udacity",
+      subtitle: "The scholarship taught me the basics of AI at the Edge, how to leverage pre-trained models available with the Intel® Distribution of OpenVINO Toolkit™.",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/edge.jpeg",
+      footerLink: []
     },
 
     {
-      title: "PWA Web App Developer",
-      description: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      title: "Acknowledged by Microsoft for my Technical Article",
+      subtitle: "The Article talked about Azure IOT Edge Configuration on Linux",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/azure-1.jpg",
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "View Article", url: "https://www.linkedin.com/pulse/setup-azure-iot-edge-runtime-jetson-devices-minified-rohan-sawant/" },
+        { name: "View Tweet", url: "https://twitter.com/_Rohan_Sawant_/status/1240227016277766145" }
       ]
     }
   ]
@@ -129,21 +126,26 @@ const blogSection = {
   /* Blogs Section */
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+  subtitle: "I love to write, share and teach others. Blogging allows me to do just that.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+      url: "https://www.linkedin.com/pulse/i-made-ai-tool-detect-facial-expressions-while-you-watch-rohan-sawant/",
+      image: "https://github.com/CT83/Hemuer/raw/master/public/images/screenshot-1.jpg",
+      title: "I made an AI Tool to detect facial expressions while you watch a video!",
+      description: "Hemeur is an AI Tool to record facial expressions of users as they watch a video and then visualize the funniest parts of it! It watches users as they watch a video, and logs when the users smile. Insights can be gathered from collected data!"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
-      title: "Why REACT Is The Best?",
-      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+      url: "https://www.linkedin.com/pulse/i-made-ai-chrome-extension-fight-fake-news-rohan-sawant/",
+      image: "https://github.com/CT83/Bunyip/raw/master/images/bunyip.gif",
+      title: "I made an AI Chrome Extension to fight Fake News!",
+      description: "Bunyip is a Chrome Extension, which allows us to detect AI-generated text, it helps users detect fake news articles which might be generated automatically and not by a real human!"
+    },{
+      url: "https://www.linkedin.com/pulse/failed-rumaro-ai-recognize-emotions-apparel-body-pose-rohan-sawant/",
+      image: "https://github.com/CT83/Rumaro/raw/master/images/algo_dg.png",
+      title: "Rumaro an AI to recognize emotions, apparel, body pose and activity on Instagram - [FAILED]",
+      description: "Rumaro uses AI to recognize emotions, apparel, body pose and activity in images, and measures how they affect audience engagement. ie. likes and comments."
+    },
   ]
 };
 
@@ -176,9 +178,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Let's talk Tech - about that App of yours, or just to say Hi! My Inbox is open for all.",
+  number: "+91-8879886525",
+  email_address: "rohansawantct83@gmail.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };

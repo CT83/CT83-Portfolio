@@ -10,6 +10,7 @@ import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
+import Testimonials from "./testimonials/Testimonials";
 import Top from "./topbutton/Top";
 
 
@@ -21,10 +22,11 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <Projects />
-        <StartupProject />
+        {/* <StartupProject /> */}
+        <Testimonials />
         <Achievement />
         <Blogs />
-        <Talks />
+        {/* <Talks /> */}
         {/* <Podcast /> */}
         <Contact />
         <Footer />

@@ -34,7 +34,7 @@
   text-align: left;
   margin-top: 240px;
   padding: 0 30px;
-  font-size: 24px;
+  font-size: medium;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -45,7 +45,7 @@
   padding-left: 30px;
   padding-right: 30px;
   font-size: 12px;
-  color: #c8c8c8;
+  color: grey;
   line-height: 18px;
   overflow: hidden;
   display: -webkit-box;

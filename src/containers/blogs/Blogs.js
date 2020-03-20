@@ -2,6 +2,7 @@ import React from "react";
 import "./Blog.css";
 import BlogCard from "../../components/blogCard/BlogCard";
 import { blogSection } from "../../portfolio";
+import Button from "../../components/button/Button";
 
 export default function Blogs() {
   return (
@@ -26,6 +27,8 @@ export default function Blogs() {
           })}
         </div>
       </div>
+      <Button text={"More"} className="project-button" href="https://www.linkedin.com/today/author/rohan-sawant-code" newTab={true} />
+
     </div>
   );
 }

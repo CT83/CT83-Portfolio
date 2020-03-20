@@ -1,10 +1,14 @@
-.project-title {
+.testimonial-title {
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
 }
+.testimonial-subtitle {
+  font-size: small;
+  white-space: pre-wrap;
+}
 
-.startup-project-text img{
+.startup-testimonial-text img{
   max-width: 100%;
   height: auto;
 }
@@ -17,12 +21,12 @@
 
 /* Media Query */
 @media (max-width: 1380px) {
-  .project-title {
+  .testimonial-title {
     font-size: 40px;
   }
 }
 @media (max-width: 768px) {
-  .project-title {
+  .testimonial-title {
     font-size: 30px;
     text-align: center;
   }
