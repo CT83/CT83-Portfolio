@@ -176,9 +176,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Let's talk Tech - about that App of yours, or just to say Hi! My Inbox is open for all.",
+  number: "+91-8879886525",
+  email_address: "rohansawantct83@gmail.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };

@@ -8,7 +8,7 @@ export default function Skills() {
     <div className="main" id="skills">
       <div className="skills-main-div">
         <div className="skills-image-div">
-          <img alt="Saad Working" src={require("../../assests/images/developerActivity.svg")}></img>
+          <img alt="Saad Working" src={require("../../assests/images/undraw_sorting_thoughts_6d48.svg")}></img>
         </div>
         <div className="skills-text-div">
           <h1 className="skills-heading">{skillsSection.title} </h1>
