@@ -137,7 +137,7 @@ const blogSection = {
     },
     {
       url: "https://www.linkedin.com/pulse/i-made-ai-chrome-extension-fight-fake-news-rohan-sawant/",
-      image: "https://github.com/CT83/Bunyip/raw/master/images/bunyip.gif",
+      image: "https://github.com/CT83/Bunyip/raw/master/images/bunyip-screencap.jpg",
       title: "I made an AI Chrome Extension to fight Fake News!",
       description: "Bunyip is a Chrome Extension, which allows us to detect AI-generated text, it helps users detect fake news articles which might be generated automatically and not by a real human!"
     },{
