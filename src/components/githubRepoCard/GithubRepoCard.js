@@ -42,9 +42,6 @@ export default function GithubRepoCard({ repo }) {
               <p>{repo.node.stargazers.totalCount}</p>
             </span>
           </div>
-          <div className="repo-right-stat">
-            <p>{repo.node.diskUsage} KB</p>
-          </div>
         </div>
       </div>
     </div>
