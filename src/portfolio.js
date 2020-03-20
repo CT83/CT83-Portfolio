@@ -18,11 +18,11 @@ const socialMediaLinks = {
 const skillsSection = {
   /* Your Skills Section  */
   title: "What I do?",
-  subTitle: "I build and lead teams to build scaleable and maintainable Web Apps with Python and Javascript",
+  subTitle: "I build and lead teams to build scalable and maintainable Web Apps with Python and Javascript",
   skills: [
     "🦄 Backend, Frontend, API Integrations",
     "🛠 CI/CD Optimization, Deployment, Containerization",
-    "📃 Project Mangement, Code Reviews, Technical Documentation"
+    "📃 Project Management, Code Reviews, Technical Documentation"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */

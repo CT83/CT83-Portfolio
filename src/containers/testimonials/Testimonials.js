@@ -13,7 +13,7 @@ class Testimonials extends Component {
         subtitle: "AI PhD Student, Human & Robot Interaction Developer",
         url:"https://www.linkedin.com/in/sajjad-rostami-438515a6/",
         text: `Rohan has an extremely strong grasp over the intricacies, complexities, and challenges of working with Deep Learning, Machine Learning, and Software in general. 
-        I reached out to Rohan when I needed help with an OpenCV Python issue I was having trouble with. He was surprisingly excited to help me with it, Rohan was able to fix something less than an hour. He even went on to answer my corresponding StackOverflow. So that others could benefit from it as well. 
+        I reached out to Rohan when I needed help with an OpenCV Python issue I was having trouble with. He was surprisingly excited to help me with it, Rohan was able to fix something in less than an hour. He even went on to answer my corresponding StackOverflow. So that others could benefit from it as well. 
         Rohan is technically strong, a real people person and someone whom I can see myself collaborating with for several projects to come in the near future. `
       },
       {
