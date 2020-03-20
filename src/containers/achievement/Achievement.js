@@ -21,7 +21,7 @@ export default function Achievement() {
               <AchivementCard
                 cardInfo={{
                   title: card.title,
-                  description: card.subtitle,
+                  subtitle: card.subtitle,
                   image: card.image,
                   footer: card.footerLink
                 }}
