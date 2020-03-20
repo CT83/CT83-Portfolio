@@ -96,30 +96,26 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Featured on by Dev.to on Twitter",
+      title: "Featured by Dev.to on Twitter",
       subtitle: "'Hemuer' my side project was featured by Dev.to's official Twitter handle.",
-      image:
-        "twitter-feature.png",
+      image:"https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/twitter-feature.png",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "View Tweet", url: "https://twitter.com/_Rohan_Sawant_/status/1239376557413560320" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Intel® Edge AI Scholarship | Udacity",
+      subtitle: "The scholarship taught me the basics of AI at the Edge, how to leverage pre-trained models available with the Intel® Distribution of OpenVINO Toolkit™.",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/edge.jpeg",
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      title: "Acknowledged by Microsoft for Technical Article",
+      subtitle: "The Article talked about Azure IOT Edge Configuration on Linux",
+      image: "https://github.com/CT83/CT83.github.io/raw/master/src/assests/images/twitter-2.png",
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "View Article", url: "https://www.linkedin.com/pulse/setup-azure-iot-edge-runtime-jetson-devices-minified-rohan-sawant/" },
+        { name: "View Tweet", url: "https://twitter.com/_Rohan_Sawant_/status/1240227016277766145" }
       ]
     }
   ]
