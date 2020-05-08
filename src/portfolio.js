@@ -69,7 +69,7 @@ const openSource = {
   /* To know how to get github key look at readme.md */
 
   githubConvertedToken: "ODE0ZDVlZDE0M2Q3YzUxNDhkNGIxM2VmMzY2ODc3YTFmZDJjMDRmMw==",
-  githubUserName: "CT83"
+  githubUserName: "ct83"
 };
 
 const bigProjects = {
