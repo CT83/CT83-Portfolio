@@ -179,7 +179,7 @@ const podcastSection = {
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Let's talk Tech - about that App of yours, or just to say Hi! My Inbox is open for all.",
-  number: "+91-8879886525",
+  number: "+1-910-315-0746",
   email_address: "rohansawantct83@gmail.com"
 };
 
